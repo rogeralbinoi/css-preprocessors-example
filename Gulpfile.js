@@ -1,18 +1,26 @@
 // importando dependências
 var gulp = require('gulp'),
     plumber = require('gulp-plumber'),
-    rename = require('gulp-rename');
+    rename = require('gulp-rename'),
     stylus = require('gulp-stylus'),
-    cssmin = require('gulp-cssmin'),
+    postcss = require('gulp-postcss'),
+    cssnano = require('cssnano'),
+    autoprefixer = require('autoprefixer'),
+    fontMagician = require('postcss-font-magician'),
     bootstrap = require('bootstrap-styl');
 
 // task para compilar o styl
 gulp.task('styl', function () {
+    var processors = [
+        autoprefixer({browsers: ['last 2 versions']}),
+        fontMagician(),
+        cssnano()
+    ];
+
     return gulp.src(['./styl/*.styl','!./styl/_*.styl'])
                .pipe(plumber())
                .pipe(stylus({ use: bootstrap(), compress: false }))
-               .pipe(gulp.dest('./css/'))
-               .pipe(cssmin())
+               .pipe(postcss(processors))
                .pipe(rename({suffix: '.min'}))
                .pipe(gulp.dest('./css/'));
 });
