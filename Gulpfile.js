@@ -4,7 +4,7 @@ var gulp = require('gulp'),
     rename = require('gulp-rename');
     stylus = require('gulp-stylus'),
     cssmin = require('gulp-cssmin'),
-    bootstrap = require('bootstrap-styl'),
+    bootstrap = require('bootstrap-styl');
 
 // task para compilar o styl
 gulp.task('styl', function () {
