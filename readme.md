@@ -1,8 +1,10 @@
 # CSS Preprocessors
 
-**Gulp**
+**Getting started**
 
-        npm install --global gulp gulp-cli
+        git clone git@github.com:rogeralbinoi/css-preprocessors-example.git
+        cd css-preprocessors-example
+        npm install
 
 **Tasks**
 
