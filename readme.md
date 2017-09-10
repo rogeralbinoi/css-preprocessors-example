@@ -12,15 +12,15 @@
 
 **Stylus**
 
-    - https://www.npmjs.com/package/gulp-stylus
+- https://www.npmjs.com/package/gulp-stylus
 
 **Bootstrap stylus**
 
-    - https://www.npmjs.com/package/bootstrap-styl
-    - https://getbootstrap.com/docs/3.3/
+- https://www.npmjs.com/package/bootstrap-styl
+- https://getbootstrap.com/docs/3.3/
 
 **PostCSS**
 
-    - http://postcss.org/
+- http://postcss.org/
 
 
