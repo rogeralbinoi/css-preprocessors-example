@@ -1,4 +1,4 @@
-# Ferramentas desenvolvimento front-end
+# CSS Preprocessors
 
 **Gulp**
 
@@ -16,7 +16,11 @@
 
 **Bootstrap stylus**
 
-    - https://github.com/maxmx/bootstrap-stylus
-    - http://getbootstrap.com/
+    - https://www.npmjs.com/package/bootstrap-styl
+    - https://getbootstrap.com/docs/3.3/
+
+**PostCSS**
+
+    - http://postcss.org/
 
 
