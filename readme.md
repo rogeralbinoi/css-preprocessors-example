@@ -1,5 +1,7 @@
 # CSS Preprocessors
 
+Exemplos da talk sobre Preprocessadores CSS realizado na Etec Mogi Mirim http://slides.com/rogeralbino/preprocessadores-css
+
 **Getting started**
 
         git clone git@github.com:rogeralbinoi/css-preprocessors-example.git
